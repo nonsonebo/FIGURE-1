@@ -1,0 +1,94 @@
+.container1{
+    display: grid;
+    /* grid-template-columns: 230px 230px 230px; */
+    grid-template-columns: auto auto auto auto; 
+    grid-template-rows: 200px 200px 200px 200px;
+    background-color: black;  
+    grid-gap:50px;
+    height: 700px;
+    color: white;
+    margin-top: 10px;}
+
+
+.container1 >div{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 2px;
+}
+
+#one{
+    background-color: aqua;
+}
+
+
+#two{
+    background-color: greenyellow;
+}
+
+
+#three{
+    background-color:green;
+}
+
+
+#four{
+    background-color: beige;
+}
+
+
+#five{
+    background-color: skyblue;
+}
+
+
+#six{
+    background-color: blue;
+}
+
+
+#seven{
+    background-color: red;
+}
+
+
+#eight{
+    background-color: yellowgreen;
+}
+
+
+#nine{
+    background-color: yellow;
+}
+
+
+#ten{
+    background-color: palevioletred;
+}
+
+
+#eleven{
+    background-color: plum;
+}
+
+
+#twelve{
+    background-color: purple;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto;
+    height: 100px;
+    margin-top: 0px;
+    background-color:tomato;
+    color: white;
+}
+
+.container2 > p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+}

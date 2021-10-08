@@ -1,0 +1,15 @@
+.container7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    height: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    background-color: rgba(0, 0, 0, 0.979);
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-gap:10px;
+    
+}
+.container7 div{
+    background-color: black;
+    column-gap: 50px;
+    margin: 2px;
+    height: 100px;
+}
